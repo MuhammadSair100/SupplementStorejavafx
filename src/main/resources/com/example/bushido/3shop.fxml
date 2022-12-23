@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1366.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bushido.HelloController">
+    <top>
+        <AnchorPane maxWidth="1370.0" minWidth="900.0" prefHeight="177.0" prefWidth="1366.0" style="-fx-background-color: #D1B000;" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fitHeight="182.0" fitWidth="181.0" layoutX="-15.0" layoutY="-4.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@Bushido.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="179.0" fitWidth="332.0" layoutX="796.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@HomeImage.png" />
+                    </image>
+                </ImageView>
+                <Text fill="#190f46" layoutX="1189.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="/" wrappingWidth="25.67578125">
+                    <font>
+                        <Font size="48.0" />
+                    </font>
+                </Text>
+                <ImageView fitHeight="39.0" fitWidth="43.0" layoutX="1038.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@icons8-circled-user-male-skin-type-7-48.png" />
+                    </image>
+                    <effect>
+                        <DropShadow />
+                    </effect>
+                </ImageView>
+                <Button fx:id="Login" layoutX="1088.0" layoutY="103.0" mnemonicParsing="false" onAction="#switchToScenelogin" prefHeight="45.0" prefWidth="88.0" style="-fx-background-color: #050A30;" text="Login" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Button>
+                <Button layoutX="1215.0" layoutY="103.0" mnemonicParsing="false" onAction="#switchToSceneSignup" prefHeight="45.0" prefWidth="104.0" style="-fx-background-color: #050A30;" text="Signup" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold Italic" size="21.0" />
+                    </font>
+                </Button>
+            </children>
+            <effect>
+                <DropShadow>
+                    <color>
+                        <Color blue="0.7218567132949829" green="0.7218567132949829" red="0.9868420958518982" />
+                    </color></DropShadow>
+            </effect>
+        </AnchorPane>
+    </top>
+    <center>
+        <AnchorPane prefHeight="650.0" prefWidth="1366.0" BorderPane.alignment="CENTER">
+            <children>
+                <Text layoutX="651.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product " wrappingWidth="135.13671875">
+                    <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop color="WHITE" />
+                                <Stop color="WHITE" offset="1.0" />
+                            </stops>
+                        </LinearGradient>
+                    </fill>
+                    <font>
+                        <Font size="23.0" />
+                    </font>
+                </Text>
+                <Text layoutX="677.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Protien " wrappingWidth="78.13671875">
+                    <font>
+                        <Font size="23.0" />
+                    </font>
+                </Text>
+                <Button layoutX="192.0" layoutY="-63.0" mnemonicParsing="false" onAction="#switchToSceneByHome" prefHeight="32.0" prefWidth="74.0" style="-fx-background-color: #050A30;" text="Home" textFill="WHITE">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button layoutX="316.0" layoutY="-63.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="74.0" style="-fx-background-color: #050A30;" text="Shop" textFill="WHITE">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button layoutX="438.0" layoutY="-64.0" mnemonicParsing="false" onAction="#switchToAbout" prefHeight="32.0" prefWidth="84.0" style="-fx-background-color: #050A30;" text="About us" textFill="WHITE">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button layoutX="570.0" layoutY="-64.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="96.0" style="-fx-background-color: #050A30;" text="Our stores" textFill="WHITE">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Text fill="#d1aa4d" layoutX="759.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Producats" wrappingWidth="107.13671875">
+                    <font>
+                        <Font size="23.0" />
+                    </font>
+                </Text>
+                <ImageView fitHeight="201.0" fitWidth="212.0" layoutX="189.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Total-mass-jpeg-600x600.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="201.0" fitWidth="212.0" layoutX="485.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Diet-Iso-1-600x600.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="201.0" fitWidth="212.0" layoutX="805.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Diet-Iso-1-600x600.png" />
+                    </image>
+                </ImageView>
+                <Text layoutX="247.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Whey Protein 80 – The Protein Works™ (UK)" wrappingWidth="112.5">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Text>
+                <Text layoutX="541.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Whey Protein Isolate 90 – The Protein Works™ (UK)" wrappingWidth="145.45703125">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Text>
+                <Text layoutX="865.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALL IN ONE (Ultimate Mass Gainer)" wrappingWidth="81.431640625">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Text>
+                <ImageView fitHeight="44.0" fitWidth="175.0" layoutX="250.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Stars.com.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="44.0" fitWidth="175.0" layoutX="541.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Stars.com.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="44.0" fitWidth="175.0" layoutX="865.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Stars.com.png" />
+                    </image>
+                </ImageView>
+                <Text layoutX="231.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rs 10,499.00" wrappingWidth="72.041015625">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Text>
+                <Text layoutX="540.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rs 8,499.00" wrappingWidth="72.041015625">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Text>
+                <Text layoutX="864.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rs 15,499.00" wrappingWidth="72.041015625">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Text>
+                <Text layoutX="874.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rs 15,499.00" wrappingWidth="72.041015625">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Text>
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1366.0" style="-fx-background-color: #050A30;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bushido.AboutUs">
+   <children>
+      <Label layoutX="483.0" layoutY="234.0" text="Bushido was born this years ago by a man who decided to turn his" textFill="#f9ff43">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="176.0" fitWidth="197.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Bushido.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="627.0" layoutY="150.0" text="Our Story" textFill="#e8ff1c">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.4018356204032898" green="0.3462475538253784" blue="0.7631579041481018" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Label>
+      <Label layoutX="492.0" layoutY="604.0" text="people ignite their strength while changing their lives for the better." textFill="#e3f543">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="492.0" layoutY="563.0" text="supplements to society’s doorsteps with honesty and integrity and help" textFill="#e2f237">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="487.0" layoutY="523.0" text="quality clothing brand: Bodybrics. It aims to bring the most authentic " textFill="#ddee42">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="487.0" layoutY="482.0" text="of the largest fitness gym in Pakistan: Jacked Fitness Arena, and high-end" textFill="#d5e847">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="487.0" layoutY="443.0" text="Bushido is a supplement brand that grew its empire within areas " textFill="#e6ff43">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="485.0" layoutY="388.0" text="his vision and work." textFill="#dcfc69">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="485.0" layoutY="350.0" text="opened his stores  online using javaFX in Pakistan, and now plans to expand" textFill="#e4f253">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="484.0" layoutY="312.0" text=" Initially starting from the living room of Abdul Mateen, the BCS student" textFill="#c2eb3b">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="484.0" layoutY="275.0" text="passion into the vision of creating the biggest fitness industry in Pakistan." textFill="#dcf236">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="475.0" fitWidth="835.0" layoutX="284.0" layoutY="252.0" opacity="0.18" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@aboutUsbackground.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="14.0" layoutY="661.0" mnemonicParsing="false" onAction="#switchToSceneByHome" style="-fx-background-color: #D1B000;" text="Go Back" textFill="#170b5b">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="111.0" layoutY="661.0" mnemonicParsing="false" onAction="#switchToSceneByHome1" style="-fx-background-color: #D1B000;" text="Home" textFill="#170b5b">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="192.0" layoutY="661.0" mnemonicParsing="false" onAction="#switchToScenelogin" style="-fx-background-color: #D1B000;" text="Login" textFill="#170b5b">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="227.0" fitWidth="165.0" layoutX="1193.0" layoutY="482.0" pickOnBounds="true">
+         <image>
+            <Image url="@aboutUs.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
